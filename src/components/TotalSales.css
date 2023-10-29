@@ -1,0 +1,20 @@
+.total-sales {
+    width: 30%;
+    height: 132px;
+    border-radius: 8px;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 4px #D3D3D3;
+    background-color: #FFFFFF;
+}
+
+.title-total-sales {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    font-size: 38px;
+}

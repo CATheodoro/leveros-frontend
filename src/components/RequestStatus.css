@@ -1,0 +1,39 @@
+.request-status {
+    width: 50%;
+    height: 132px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 4px #D3D3D3;
+    background-color: #FFFFFF;
+}
+
+.list-request-status{    
+    justify-content: center;
+    display: flex;
+  }
+
+.title-request-status {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.request-status thead tr td{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.request-status tbody tr th{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+
+.table-request-status th, .table-request-status td {
+  padding: 0px 20px;
+  text-align: center;
+}

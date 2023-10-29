@@ -1,0 +1,76 @@
+.login{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+.box-login{
+    align-items: center;
+    margin: auto;
+    margin-left: 30%;
+}
+
+.subtitle{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.text{
+    color: #000000;
+    font-size: 24px;
+}
+
+.input{
+    margin-bottom: 20px;
+    width: 438px;
+    height: 51px;
+    border-radius: 2px;
+    font-size: 22px;
+}
+
+.logo-Pos-Color{
+    width: 282px;
+    height: 96px;
+    margin: 0px 0px 0px -30px;
+}
+
+.fundo-image{
+    margin-left: -600px;
+    height: 100vh;
+}
+
+.right-content{
+    width: 70%;
+    height: 100%;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.left-content{
+    float: left;
+    width: 30%;
+}
+
+.overlay-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.30;
+    width: 100%;
+    height: 100%;
+    background-color: #005A64;
+    float: left;
+    width: 30%;
+}
+
+.right-content-top{
+    margin-top: 15%;
+}
+
+.logo-negative-image{
+    position: absolute;
+    z-index: 9999;
+}

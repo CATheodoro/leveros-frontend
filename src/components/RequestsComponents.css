@@ -1,0 +1,35 @@
+.requests-components {
+    height: 132px;
+    border-radius: 8px;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 4px #D3D3D3;
+    background-color: #FFFFFF;
+    width: calc(17% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.list-request-components{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #005A64;
+}
+
+.list-components{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #005A64;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 14px;
+}

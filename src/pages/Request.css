@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: #EBECEC;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+    background: #002D32;
+    color: white;
+    font-size: 15px;
+}
+
+.header-text{
+    flex: 0.6;
+    text-align: center;
+}
+
+.status-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
