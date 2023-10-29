@@ -1,13 +1,10 @@
 .requests-components {
     height: 132px;
     border-radius: 8px;
-    justify-content: center;
     box-shadow: 3px 3px 3px 4px #D3D3D3;
     background-color: #FFFFFF;
-    width: calc(17% - 20px);
-    margin-right: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+    width: 16%;
+    margin-top: 2%;
     padding: 20px;
 }
 
@@ -21,13 +18,17 @@
 }
 
 .list-components{
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    display: flex;
     font-size: 12px;
     margin-bottom: 10px;
     border-bottom: 1px solid #005A64;
 }
+
+.list-components > div {
+    flex: 1;
+    padding: 0 1px;
+  }
 
 .bold{
     font-weight: bold;

@@ -22,7 +22,7 @@ export function TotalSales(){
             <div className='title-total-sales'>Total de Vendas</div>
             <div className='price'>
                 {loading ? (<p>Carregando...</p>) : (
-                    <div>R${(list.totalSales.toFixed(2).toString().replace(".", ","))}</div>
+                    <div>R${list.totalSales.toFixed(2).toString().replace(".", ",")}</div>
                 )}
             </div>
         </div>

@@ -34,7 +34,7 @@ export function RequestsComponents({data} : RequestsComponentProps){
           </div>
           <div className='list-components'>
             <div>Valor</div>
-            <div className='bold'>{data.price}</div>
+            <div className='bold'>R${data.price.toFixed(2).toString().replace(".", ",")}</div>
           </div>
           <div className='list-components'>
             <div>Status</div>

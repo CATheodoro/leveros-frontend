@@ -39,20 +39,22 @@ export function Request(){
                 <div className='header-text'>MONITORAMENTO DE PEDIDOS</div>
                 <HeaderButton onClick={handleOnClick}>SAIR</HeaderButton>
             </div>
+            <div className='componentes'>
+                <div className='status-price'>
+                    <RequestStatus/>
+                    <TotalSales/>
+                </div>
 
-            <div className='status-price'>
-                <RequestStatus/>
-                <TotalSales/>
+                <div className='card'>
+                    {loading ? ( <p>Carregando...</p>) : (
+                        list.map((data : RequestInterface) => (
+                            <RequestsComponents key={data.id} data={data} />
+                        )
+                    ))}
+                </div>
+            </div>
             </div>
 
-            <div className='card'>
-                {loading ? ( <p>Carregando...</p>) : (
-                    list.map((data : RequestInterface) => (
-                        <RequestsComponents key={data.id} data={data} />
-                    )
-                ))}
-            </div>
-        </div>
 
     );
 }
